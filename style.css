@@ -1,0 +1,128 @@
+/*
+******LIMPAR FORMATAÇÃO******
+*/
+
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+/*
+******FORMATAÇÃO GENÉRICA******
+*/
+body{
+    font: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(209, 209, 209);
+}
+
+h1{
+    color: white;
+    font-size: 40px;
+}
+h2{
+    color: #F58342;
+}
+
+h3{
+    color: #565656 ;
+    background: #cccccc;
+    padding: 5px;
+}
+
+/*
+******HEADER CABEÇALHO******
+*/
+
+#header{
+    background-color: #F58342;
+    padding: 0px;
+    text-align: center ;
+}
+
+#logo, #menu{
+    padding: 10px;
+}
+
+#header a:link, #header a:visited{
+    color: white;
+    padding: 8px 12px;
+}
+
+#header a:hover{
+    color: #0066cc;
+    background: white;
+    text-decoration: none;
+}
+.white{
+    color: white;
+}
+
+/*
+******CONTENT CONTEUDO******
+*/
+
+#content {
+    width: 920px;
+    margin: 0 auto;
+    padding: 20px;
+}
+#posts{
+    width: 920px;
+    float: center;
+}
+.post{
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white;
+    text-align: justify;
+}
+.data-post{
+    font-size: 13px;
+    border-bottom: 1px solid #F58342;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.data-post2{
+    font-size: 13px;
+    border-bottom: 1px solid #F58342;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.img-post{
+    width: 880px;
+}
+
+
+
+/*
+******FORMATAÇÃO DE LINKS******
+*/
+a{
+    text-decoration: none;
+}
+a:link, a:visited{
+    color: #0066cc;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+/*
+******FOOTER RODAPÉ******
+*/
+
+#footer{
+    text-align: center;
+    padding: 15px;
+    color: #F58342;
+    background-color: white ;
+    
+
+
+
+
+}
